@@ -16,6 +16,11 @@ import themeFeature01 from "../images/feature-01.svg"
 import themeFeature02 from "../images/feature-02.svg"
 import themeFeature03 from "../images/feature-03.svg"
 import themeFeature04 from "../images/feature-04.svg"
+import designImg from "../images/undraw_pair_programming_njlp.svg"
+import decideImg from "../images/undraw_decide_3iwx.svg"
+import mobileImg from "../images/undraw_mobile_images_rc0q.svg"
+import supportImg from "../images/undraw_video_influencer_9oyy.svg"
+import landingImg from "../images/undraw_slider_5bgj.svg"
 
 import themeFeatureExtended01 from "../images/feature-extended-01.svg"
 import themeFeatureExtended02 from "../images/feature-extended-02.svg"
@@ -36,6 +41,11 @@ const themeImages = {
   themeFeature02,
   themeFeature03,
   themeFeature04,
+  designImg,
+  decideImg,
+  mobileImg,
+  supportImg,
+  landingImg,
 
   themeFeatureExtended01,
   themeFeatureExtended02,
@@ -154,12 +164,13 @@ class Layout extends React.Component {
                     <div className="container-sm">
                       <h2 className="section-title mt-0 is-revealing">
                         I specialize in designing and producing modern, 
-                        customized digital solutions. Avoiding the slow, clunky and outdated - 
-                        I opt for creating fast, personalized, and mobile interactions.
+                        customized digital solutions. 
+                        {/* Avoiding the slow, clunky and outdated - 
+                        I opt for creating fast, personalized, and mobile interactions. */}
                       </h2>
                       <img
                         className="features-illustration is-revealing"
-                        src={themeImages.themeFeaturesIllustration}
+                        src={themeImages.landingImg}
                         alt="Features illustration"
                       />
                     </div>
@@ -257,7 +268,7 @@ class Layout extends React.Component {
                     <div className="feature-extended">
                       <div className="feature-extended-image is-revealing">
                         <img
-                          src={themeImages.themeFeatureExtended01}
+                          src={themeImages.decideImg}
                           alt="Feature extended 01"
                         />
                       </div>
@@ -272,7 +283,7 @@ class Layout extends React.Component {
                     <div className="feature-extended">
                       <div className="feature-extended-image is-revealing">
                         <img
-                          src={themeImages.themeFeatureExtended02}
+                          src={themeImages.mobileImg}
                           alt="Feature extended 02"
                         />
                       </div>
@@ -287,7 +298,7 @@ class Layout extends React.Component {
                     <div className="feature-extended">
                       <div className="feature-extended-image is-revealing">
                         <img
-                          src={themeImages.themeFeatureExtended03}
+                          src={themeImages.supportImg}
                           alt="Feature extended 03"
                         />
                       </div>
@@ -307,7 +318,7 @@ class Layout extends React.Component {
               <div className="container">
                 <div className="pricing-inner section-inner">
                   <h2 className="section-title mt-0 text-center">
-                    Simple, transarent pricing
+                    Packages to suit your needs
                   </h2>
                   <div className="pricing-tables-wrap">
                     <div className="pricing-table is-revealing">
@@ -315,16 +326,16 @@ class Layout extends React.Component {
                         <div className="pricing-table-main">
                           <div className="pricing-table-header mb-24 pb-24">
                             <div className="pricing-table-title text-sm mt-0 mb-12">
-                              Individual
+                              <br/>
                             </div>
                             <div className="pricing-table-price">
-                              <span className="pricing-table-price-currency">
+                              {/* <span className="pricing-table-price-currency">
                                 $
-                              </span>
+                              </span> */}
                               <span className="pricing-table-price-amount h1">
-                                19
+                                Basic
                               </span>
-                              /m
+                              {/* /m */}
                             </div>
                           </div>
                           <div className="pricing-table-features-title text-xs mb-24">
@@ -332,16 +343,16 @@ class Layout extends React.Component {
                           </div>
                           <ul className="pricing-table-features list-reset text-xs">
                             <li>
-                              <span>Excepteur sint occaecat velit</span>
+                              <span>Perfect for displaying a portfolio</span>
                             </li>
                             <li>
-                              <span>Excepteur sint occaecat velit</span>
+                              <span>Blogging set up plus three pages</span>
                             </li>
                             <li>
-                              <span>Excepteur sint occaecat velit</span>
+                              <span>Optional contact form</span>
                             </li>
                             <li>
-                              <span>Excepteur sint occaecat velit</span>
+                              <span>Intro session and CMS support</span>
                             </li>
                           </ul>
                         </div>
@@ -350,7 +361,7 @@ class Layout extends React.Component {
                             className="button button-primary button-block"
                             href="/#"
                           >
-                            Free trial
+                            Inquire now
                           </a>
                         </div>
                       </div>
@@ -360,16 +371,16 @@ class Layout extends React.Component {
                         <div className="pricing-table-main">
                           <div className="pricing-table-header mb-24 pb-24">
                             <div className="pricing-table-title text-sm mt-0 mb-12">
-                              Agency
+                              <br/>
                             </div>
                             <div className="pricing-table-price">
                               <span className="pricing-table-price-currency">
-                                $
+                                {/* $ */}
                               </span>
                               <span className="pricing-table-price-amount h1">
-                                49
+                                Business
                               </span>
-                              /m
+                              {/* /m */}
                             </div>
                           </div>
                           <div className="pricing-table-features-title text-xs mb-24">
@@ -377,16 +388,16 @@ class Layout extends React.Component {
                           </div>
                           <ul className="pricing-table-features list-reset text-xs">
                             <li>
-                              <span>Excepteur sint occaecat velit</span>
+                              <span>Five to eight content pages</span>
                             </li>
                             <li>
-                              <span>Excepteur sint occaecat velit</span>
+                              <span>Multiple forms to suit your needs</span>
                             </li>
                             <li>
-                              <span>Excepteur sint occaecat velit</span>
+                              <span>Optional blog set up</span>
                             </li>
                             <li>
-                              <span>Excepteur sint occaecat velit</span>
+                              <span>Intro session and CMS support</span>
                             </li>
                           </ul>
                         </div>
@@ -395,7 +406,7 @@ class Layout extends React.Component {
                             className="button button-primary button-block"
                             href="/#"
                           >
-                            Free trial
+                            Inquire now
                           </a>
                         </div>
                       </div>
@@ -405,16 +416,16 @@ class Layout extends React.Component {
                         <div className="pricing-table-main">
                           <div className="pricing-table-header mb-24 pb-24">
                             <div className="pricing-table-title text-sm mt-0 mb-12">
-                              Enterprise
+                              <br/>
                             </div>
                             <div className="pricing-table-price">
                               <span className="pricing-table-price-currency">
-                                $
+                                {/* $ */}
                               </span>
                               <span className="pricing-table-price-amount h1">
-                                69
+                                Custom
                               </span>
-                              /m
+                              {/* /m */}
                             </div>
                           </div>
                           <div className="pricing-table-features-title text-xs mb-24">
@@ -422,25 +433,25 @@ class Layout extends React.Component {
                           </div>
                           <ul className="pricing-table-features list-reset text-xs">
                             <li>
-                              <span>Excepteur sint occaecat velit</span>
+                              <span>Large business website or application</span>
                             </li>
                             <li>
-                              <span>Excepteur sint occaecat velit</span>
+                              <span>External API integration</span>
                             </li>
                             <li>
-                              <span>Excepteur sint occaecat velit</span>
+                              <span>Existing bug fixes</span>
                             </li>
                             <li>
-                              <span>Excepteur sint occaecat velit</span>
+                              <span>Additional support and tutorials</span>
                             </li>
                           </ul>
                         </div>
                         <div className="pricing-table-cta">
                           <a
-                            className="button button-secondary button-block"
+                            className="button button-primary button-block"
                             href="/#"
                           >
-                            Buy it now
+                            Inquire now
                           </a>
                         </div>
                       </div>
@@ -453,9 +464,9 @@ class Layout extends React.Component {
               <div className="container">
                 <div className="testimonials-inner section-inner">
                   <h2 className="section-title mt-0 text-center">
-                    Loved by users worldwide
+                    Welcome your online presence to 2019
                   </h2>
-                  <div className="testimonials-wrap">
+                  {/* <div className="testimonials-wrap">
                     <div className="testimonial is-revealing">
                       <div className="testimonial-inner">
                         <div className="testimonial-main mb-32">
@@ -537,7 +548,7 @@ class Layout extends React.Component {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </section>
@@ -545,7 +556,7 @@ class Layout extends React.Component {
               <div className="container">
                 <div className="cta-inner section-inner is-revealing">
                   <h3 className="section-title mt-0">
-                    Nisi porta lorem mollis aliquam ut.
+                    Fast, personalized, and mobile.
                   </h3>
                   <div className="cta-cta">
                     <a className="button button-wide-mobile" href="/#">
