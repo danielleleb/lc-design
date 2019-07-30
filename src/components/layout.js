@@ -133,14 +133,14 @@ class Layout extends React.Component {
                     </h1>
                     <p className="hero-paragraph">
                       Bring your business to life online. 
-                      I'm here to help - every step of the way.
+                      From designing and developing, to domains and hosting, and everything in between.
                     </p>
                     <div className="hero-cta">
                       <a
                         className="button button-primary button-wide-mobile"
                         href="/#"
                       >
-                        Get in touch
+                        Get started
                       </a>
                     </div>
                   </div>
@@ -153,8 +153,9 @@ class Layout extends React.Component {
                   <div className="features-header text-center">
                     <div className="container-sm">
                       <h2 className="section-title mt-0 is-revealing">
-                        Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse-cillum dolore eu fugiat pariatur.
+                        I specialize in designing and producing modern, 
+                        customized digital solutions. Avoiding the slow, clunky and outdated - 
+                        I opt for creating fast, personalized, and mobile interactions.
                       </h2>
                       <img
                         className="features-illustration is-revealing"
@@ -173,10 +174,10 @@ class Layout extends React.Component {
                           />
                         </div>
                         <div className="feature-content">
-                          <h4 className="feature-title mt-0 mb-8">Discover</h4>
+                          <h4 className="feature-title mt-0 mb-8">Design</h4>
                           <p className="text-sm mb-0">
-                            A pseudo-Latin text used in web design, layout, and
-                            printing in place of things to emphasise design.
+                            A clean, appealing design is what draws your users in. 
+                            The importance of a modern, sleek user interface (including in mobile!) cannot be over-emphasized.  
                           </p>
                         </div>
                       </div>
@@ -190,10 +191,10 @@ class Layout extends React.Component {
                           />
                         </div>
                         <div className="feature-content">
-                          <h4 className="feature-title mt-0 mb-8">Discover</h4>
+                          <h4 className="feature-title mt-0 mb-8">Development</h4>
                           <p className="text-sm mb-0">
-                            A pseudo-Latin text used in web design, layout, and
-                            printing in place of things to emphasise design.
+                            Intuitive user interactions and an easy-to-use interface will keep your audience coming back for more. 
+                            No lagging, no waiting, just your content and your users.
                           </p>
                         </div>
                       </div>
@@ -209,10 +210,10 @@ class Layout extends React.Component {
                           />
                         </div>
                         <div className="feature-content">
-                          <h4 className="feature-title mt-0 mb-8">Discover</h4>
+                          <h4 className="feature-title mt-0 mb-8">Hosting</h4>
                           <p className="text-sm mb-0">
-                            A pseudo-Latin text used in web design, layout, and
-                            printing in place of things to emphasise design.
+                            Not all hosting is the same. I can help you to learn about your options,
+                            and to find what best suits your needs.
                           </p>
                         </div>
                       </div>
@@ -226,10 +227,10 @@ class Layout extends React.Component {
                           />
                         </div>
                         <div className="feature-content">
-                          <h4 className="feature-title mt-0 mb-8">Discover</h4>
+                          <h4 className="feature-title mt-0 mb-8">Domain</h4>
                           <p className="text-sm mb-0">
-                            A pseudo-Latin text used in web design, layout, and
-                            printing in place of things to emphasise design.
+                            A good domain your users will never forget. I can help you with purchasing a domain, 
+                            and configuring it to your website. 
                           </p>
                         </div>
                       </div>
@@ -243,12 +244,11 @@ class Layout extends React.Component {
                 <div className="features-extended-header text-center">
                   <div className="container-sm">
                     <h2 className="section-title mt-0">
-                      What makes Ruby great
+                      Set your website apart
                     </h2>
                     <p className="section-paragraph">
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur sed vulputate
-                      mi sit.
+                      Empower your brand through meaningful user interactions. Display your content in the 
+                      most eye-catching way. Keep your users coming back for more.
                     </p>
                   </div>
                 </div>
@@ -262,11 +262,10 @@ class Layout extends React.Component {
                         />
                       </div>
                       <div className="feature-extended-body is-revealing">
-                        <h3 className="mt-0">Freedom from designers</h3>
+                        <h3 className="mt-0">Design and development</h3>
                         <p className="mb-0">
-                          Nisi porta lorem mollis aliquam ut. Ac tincidunt vitae
-                          semper quis lectus nulla at volutpat. Est ultricies
-                          integer quis auctor elit sed.
+                          Starting from scratch? Or maybe your current website is stuck in 2004?
+                          Tell me about your business, your audience and your vision, and I'll bring it all together.
                         </p>
                       </div>
                     </div>
@@ -278,11 +277,10 @@ class Layout extends React.Component {
                         />
                       </div>
                       <div className="feature-extended-body is-revealing">
-                        <h3 className="mt-0">Freedom from designers</h3>
+                        <h3 className="mt-0">Additional features</h3>
                         <p className="mb-0">
-                          Nisi porta lorem mollis aliquam ut. Ac tincidunt vitae
-                          semper quis lectus nulla at volutpat. Est ultricies
-                          integer quis auctor elit sed.
+                          Got a website that's lacking features? I'm can work with your existing codebase to 
+                          add new functionalities, or fix existing bugs.
                         </p>
                       </div>
                     </div>
@@ -294,11 +292,10 @@ class Layout extends React.Component {
                         />
                       </div>
                       <div className="feature-extended-body is-revealing">
-                        <h3 className="mt-0">Freedom from designers</h3>
+                        <h3 className="mt-0">Support</h3>
                         <p className="mb-0">
-                          Nisi porta lorem mollis aliquam ut. Ac tincidunt vitae
-                          semper quis lectus nulla at volutpat. Est ultricies
-                          integer quis auctor elit sed.
+                          I won't just create a website for you, I'll provide the support 
+                          and instructions that will allow you to make use of it to the fullest.
                         </p>
                       </div>
                     </div>
