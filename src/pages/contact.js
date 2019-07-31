@@ -60,7 +60,7 @@ class ContactPage extends React.Component {
       })
     }
   }
-  
+
   render() {
     return (
       <>
@@ -113,6 +113,7 @@ class ContactPage extends React.Component {
               <div className="container">
                 <div className="cta-inner section-inner is-revealing">
                   <form name="contact" method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact" />
                     <input placeholder="Name" type="text" name="name" />
                     <p>
                       {/* <label>Your Name:  */}
