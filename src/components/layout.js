@@ -223,8 +223,8 @@ class Layout extends React.Component {
                         <div className="feature-content">
                           <h4 className="feature-title mt-0 mb-8">Hosting</h4>
                           <p className="text-sm mb-0">
-                            Not all hosting is the same. I can help you to learn about your options,
-                            and to find what best suits your needs.
+                            Not all hosting is the same. I can help you learn about your options,
+                            and find what best suits your needs.
                           </p>
                         </div>
                       </div>
