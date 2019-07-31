@@ -556,7 +556,7 @@ class Layout extends React.Component {
               <div className="container">
                 <div className="cta-inner section-inner is-revealing">
                   <h3 className="section-title mt-0">
-                    Fast, personalized, and mobile.
+                    Fast, personalized, mobile.
                   </h3>
                   <div className="cta-cta">
                     <a className="button button-wide-mobile" href="/contact">
