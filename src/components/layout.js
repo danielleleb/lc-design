@@ -464,7 +464,7 @@ class Layout extends React.Component {
               <div className="container">
                 <div className="testimonials-inner section-inner">
                   <h2 className="section-title mt-0 text-center">
-                    Upgrade your online presence
+                    Upgrade your online presence with help from Danielle Leblanc-Cyr
                   </h2>
                   {/* <div className="testimonials-wrap">
                     <div className="testimonial is-revealing">
