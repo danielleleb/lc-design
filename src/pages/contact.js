@@ -1,5 +1,7 @@
 import React from "react"
 import themeLogo from "../images/logo.svg"
+import SR from "../components/ScrollReveal"
+import "../scss/style.scss"
 
 const themeImages = {
   themeLogo
