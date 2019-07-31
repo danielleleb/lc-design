@@ -148,7 +148,7 @@ class Layout extends React.Component {
                     <div className="hero-cta">
                       <a
                         className="button button-primary button-wide-mobile"
-                        href="/#"
+                        href="/contact"
                       >
                         Get started
                       </a>
@@ -290,7 +290,7 @@ class Layout extends React.Component {
                       <div className="feature-extended-body is-revealing">
                         <h3 className="mt-0">Additional features</h3>
                         <p className="mb-0">
-                          Got a website that's lacking features? I'm can work with your existing codebase to 
+                          Got a website that's lacking features? I'll work with your existing codebase to 
                           add new functionalities, or fix existing bugs.
                         </p>
                       </div>
@@ -359,7 +359,7 @@ class Layout extends React.Component {
                         <div className="pricing-table-cta">
                           <a
                             className="button button-primary button-block"
-                            href="/#"
+                            href="/contact"
                           >
                             Inquire now
                           </a>
@@ -404,7 +404,7 @@ class Layout extends React.Component {
                         <div className="pricing-table-cta">
                           <a
                             className="button button-primary button-block"
-                            href="/#"
+                            href="/contact"
                           >
                             Inquire now
                           </a>
@@ -449,7 +449,7 @@ class Layout extends React.Component {
                         <div className="pricing-table-cta">
                           <a
                             className="button button-primary button-block"
-                            href="/#"
+                            href="/contact"
                           >
                             Inquire now
                           </a>
@@ -559,7 +559,7 @@ class Layout extends React.Component {
                     Fast, personalized, and mobile.
                   </h3>
                   <div className="cta-cta">
-                    <a className="button button-wide-mobile" href="/#">
+                    <a className="button button-wide-mobile" href="/contact">
                       Get started
                     </a>
                   </div>
@@ -580,22 +580,14 @@ class Layout extends React.Component {
                       </div>
                       <ul className="footer-social-links list-reset">
                         <li>
-                          <a href="/#">
-                            <span className="screen-reader-text">Facebook</span>
-                            <svg
-                              width="16"
-                              height="16"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z"
-                                fill="#FFF"
-                              />
-                            </svg>
+                          <a target="_blank" href="https://www.linkedin.com/in/danielleleblanccyr/">
+                            <span className="screen-reader-text">LinkedIn</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                            <path fill="#FFF" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>                            </svg>
                           </a>
                         </li>
                         <li>
-                          <a href="/#">
+                          <a target="_blank" href="https://twitter.com/danielle__lc">
                             <span className="screen-reader-text">Twitter</span>
                             <svg
                               width="16"
@@ -609,7 +601,7 @@ class Layout extends React.Component {
                             </svg>
                           </a>
                         </li>
-                        <li>
+                        {/* <li>
                           <a href="/#">
                             <span className="screen-reader-text">Google</span>
                             <svg
@@ -623,11 +615,11 @@ class Layout extends React.Component {
                               />
                             </svg>
                           </a>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
-                  <div className="site-footer-unit">
+                  {/* <div className="site-footer-unit">
                     <div className="site-footer-unit-inner">
                       <div className="footer-top-links">
                         <div className="footer-title mb-16">Company</div>
@@ -689,9 +681,9 @@ class Layout extends React.Component {
                         </ul>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
-                <div className="site-footer-bottom">
+                {/* <div className="site-footer-bottom">
                   <ul className="footer-bottom-links list-reset">
                     <li>
                       <a href="/#">Contact</a>
@@ -706,7 +698,7 @@ class Layout extends React.Component {
                   <div className="footer-copyright">
                     &copy; 2018 Ruby, all rights reserved
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </footer>

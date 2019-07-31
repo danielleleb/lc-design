@@ -20,6 +20,50 @@
 		bottom: 0;
 		background: color(typography, 1);
 	}
+	
+
+	&.contact {
+		height: 280px;
+		&::before {
+			// height: 10%;
+		}
+
+		form {
+			position: relative;
+			margin: 0 auto;
+
+			input {
+				margin: 10px;
+				width: calc(100% - 20px);
+				font-size: 18px;
+				border: 2px solid color(typography, 3);
+				text-indent: 5px;
+
+			}
+
+			textarea {
+				border: 2px solid color(typography, 3);
+				text-indent: 5px;
+				font-size: 18px;
+				margin: 0 10px;
+				width: calc(100% - 20px);
+			}
+
+			.button {
+				top: 20px;
+				display: block;
+				max-width: calc(100% - 20px);
+			}
+		}
+
+		.container {
+			top: -60px;
+			left: 0;
+			right: 0;
+			position: absolute;
+			z-index: 10;
+		}
+	}
 }
 
 .cta-inner {
@@ -55,6 +99,21 @@
 		.section-title {
 			margin-bottom: 0;
 			padding-right: 24px;
+		}
+
+		&.contact {
+			&::before {
+				height: 20%;
+			}
+	
+			form {
+				input {
+					width: auto;
+				}
+			}
+			.container {
+				top: -110px;
+			}
 		}
 	}
 
