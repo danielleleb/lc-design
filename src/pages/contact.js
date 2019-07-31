@@ -9,6 +9,58 @@ const themeImages = {
 // import Layout from "../components/layout"
 
 class ContactPage extends React.Component {
+  componentDidMount() {
+    const doc = document.documentElement
+
+    doc.classList.remove("no-js")
+    doc.classList.add("js")
+
+    document.body.classList.add("is-boxed")
+    document.body.classList.add("has-animations")
+    document.body.classList.add("is-loaded")
+
+    // Reveal animations
+    if (document.body.classList.contains("has-animations")) {
+      SR.reveal(".features .section-title, .features-illustration, .feature", {
+        delay: 300,
+        duration: 600,
+        distance: "60px",
+        easing: "cubic-bezier(0.215, 0.61, 0.355, 1)",
+        origin: "bottom",
+        viewFactor: 0.2,
+        interval: 150,
+      })
+      SR.reveal(
+        ".feature-extended:nth-child(odd) .feature-extended-body, .feature-extended:nth-child(even) .feature-extended-image",
+        {
+          duration: 600,
+          distance: "40px",
+          easing: "cubic-bezier(0.215, 0.61, 0.355, 1)",
+          origin: "right",
+          viewFactor: 0.5,
+        }
+      )
+      SR.reveal(
+        ".feature-extended:nth-child(even) .feature-extended-body, .feature-extended:nth-child(odd) .feature-extended-image",
+        {
+          duration: 600,
+          distance: "40px",
+          easing: "cubic-bezier(0.215, 0.61, 0.355, 1)",
+          origin: "left",
+          viewFactor: 0.5,
+        }
+      )
+      SR.reveal(".pricing-table, .testimonial, .cta-inner", {
+        duration: 600,
+        distance: "60px",
+        easing: "cubic-bezier(0.215, 0.61, 0.355, 1)",
+        origin: "bottom",
+        viewFactor: 0.5,
+        interval: 150,
+      })
+    }
+  }
+  
   render() {
     return (
       <>
