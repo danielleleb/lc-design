@@ -42,7 +42,7 @@
 				font-size: 18px;
 				border: 2px solid color(typography, 3);
 				text-indent: 5px;
-				width: 196px;
+				width: calc(50% - 20px);
 				border-radius: 0;
 				height: 36px;
 			}
@@ -50,6 +50,9 @@
 			select {
 				-webkit-appearance: none;
 				-webkit-border-radius: 0px;
+				&.placeholder {
+					color: rgb(117, 117, 117);
+				}
 			}
 
 			textarea {

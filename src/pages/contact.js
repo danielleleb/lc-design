@@ -12,15 +12,16 @@ class ContactPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      packageType: ""
+      packageType: "",
+      value: null
     }
   }
   componentDidMount() {
-    let packageType;
     let url = new URL(document.URL);
     if (url.searchParams.get("type")) {
       this.setState({
-        packageType: url.searchParams.get("type")
+        packageType: url.searchParams.get("type"),
+        value: url.searchParams.get("type")
       })
     }
     
@@ -75,7 +76,14 @@ class ContactPage extends React.Component {
     }
   }
 
+  handleChange(event) {
+    this.setState({
+      packageType: event.target.value,
+      value: event.target.value
+    })
+  }
   render() {
+    
     return (
       <>
         <div className="body-wrap boxed-container">
@@ -112,9 +120,6 @@ class ContactPage extends React.Component {
                 </div>
               </div>
             </section>
-
-         
-          
             <section className="cta contact section text-light">
               <div className="container">
                 <div className="cta-inner section-inner is-revealing">
@@ -124,10 +129,11 @@ class ContactPage extends React.Component {
                       <input placeholder="Name" type="text" name="name" />
                       <select 
                         name="package-type" 
+                        className={!this.state.value ? "placeholder" : null}
                         value={this.state.packageType}
-                        onChange={(e) => this.setState({packageType: e.target.value})}
+                        onChange={(e) => this.handleChange(e)}
                         >                        
-                        <option value="null" disabled>Select a package type:</option>
+                        <option value="" disabled>Package Type</option>
                         <option value="basic">Basic</option>
                         <option value="business">Business</option>
                         <option value="custom">Custom</option>
