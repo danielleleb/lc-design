@@ -359,7 +359,7 @@ class Layout extends React.Component {
                         <div className="pricing-table-cta">
                           <a
                             className="button button-primary button-block"
-                            href="/contact"
+                            href="/contact?type=basic"
                           >
                             Inquire now
                           </a>
@@ -404,7 +404,7 @@ class Layout extends React.Component {
                         <div className="pricing-table-cta">
                           <a
                             className="button button-primary button-block"
-                            href="/contact"
+                            href="/contact?type=business"
                           >
                             Inquire now
                           </a>
@@ -449,7 +449,7 @@ class Layout extends React.Component {
                         <div className="pricing-table-cta">
                           <a
                             className="button button-primary button-block"
-                            href="/contact"
+                            href="/contact?type=custom"
                           >
                             Inquire now
                           </a>

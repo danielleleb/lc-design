@@ -9,7 +9,21 @@ const themeImages = {
 // import Layout from "../components/layout"
 
 class ContactPage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      packageType: ""
+    }
+  }
   componentDidMount() {
+    let packageType;
+    let url = new URL(document.URL);
+    if (url.searchParams.get("type")) {
+      this.setState({
+        packageType: url.searchParams.get("type")
+      })
+    }
+    
     const doc = document.documentElement
 
     doc.classList.remove("no-js")
@@ -91,17 +105,9 @@ class ContactPage extends React.Component {
                       Contact
                     </h1>
                     <p className="hero-paragraph">
-                      Bring your business to life online. 
-                      From designing and developing, to domains and hosting, and everything in between.
+                      Tell me about yourself, your business, your project, and 
+                      I'll get back to you very soon to discuss some options.
                     </p>
-                    {/* <div className="hero-cta">
-                      <a
-                        className="button button-primary button-wide-mobile"
-                        href="/#"
-                      >
-                        Get started
-                      </a>
-                    </div> */}
                   </div>
                 </div>
               </div>
@@ -114,7 +120,18 @@ class ContactPage extends React.Component {
                 <div className="cta-inner section-inner is-revealing">
                   <form name="contact" method="POST" data-netlify="true">
                     <input type="hidden" name="form-name" value="contact" />
-                    <input placeholder="Name" type="text" name="name" />
+                    <p>
+                      <input placeholder="Name" type="text" name="name" />
+                      <select 
+                        name="package-type" 
+                        value={this.state.packageType}
+                        onChange={(e) => this.setState({packageType: e.target.value})}
+                        >
+                        <option value="basic">Basic</option>
+                        <option value="business">Business</option>
+                        <option value="custom">Custom</option>
+                      </select>
+                    </p>
                     <p>
                       {/* <label>Your Name:  */}
                         {/* </label>    */}

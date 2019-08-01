@@ -32,20 +32,31 @@
 			position: relative;
 			margin: 0 auto;
 
-			input {
+			p {
+				margin: 0 auto;
+			}
+
+			input, select {
 				margin: 10px;
-				width: calc(100% - 20px);
+				max-width: calc(100% - 20px);
 				font-size: 18px;
 				border: 2px solid color(typography, 3);
 				text-indent: 5px;
+				width: 196px;
+				border-radius: 0;
+				height: 36px;
+			}
 
+			select {
+				-webkit-appearance: none;
+				-webkit-border-radius: 0px;
 			}
 
 			textarea {
 				border: 2px solid color(typography, 3);
 				text-indent: 5px;
 				font-size: 18px;
-				margin: 0 10px;
+				margin: 10px;
 				width: calc(100% - 20px);
 			}
 
