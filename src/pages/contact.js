@@ -126,7 +126,8 @@ class ContactPage extends React.Component {
                         name="package-type" 
                         value={this.state.packageType}
                         onChange={(e) => this.setState({packageType: e.target.value})}
-                        >
+                        >                        
+                        <option value="null" disabled>Select a package type:</option>
                         <option value="basic">Basic</option>
                         <option value="business">Business</option>
                         <option value="custom">Custom</option>
